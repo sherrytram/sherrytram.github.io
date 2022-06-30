@@ -1,56 +1,119 @@
+h2 {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #4f4943;
+    font-size: 40px;
+}
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    color: #4f4943;
+    font-size: 30px;
+    margin-top: 0px;
+    
+}
+p {
+    font-family: 'Cardo', serif;
+    color: #4f4943;
+    font-size: 20px;
+}
+
+#social {
+    color: #4f4943;
+    padding: 4px;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+#social:hover {
+    background-color: #4f4943;
+    border-color: #fffdf6;
+    color:#fffdf6;
+}
+
 body {
     background-color: #fffdf6;
 }
 
-h2 {
-    text-align: left;
-    padding-left: 50px;
-    font-size: 40px;
-}
-
-#title {
+#me {
     float: left;
-}
-#nav {
-    float: right;
-    padding-top: 40px;
-    padding-right: 300px;
-}
-
-#infobox {
-    width: 500px;
-}
-#profiletab {
-    float: right;
-    padding-right: 50px;
-}
-#workstab {
-    float: right;
-}
-
-#dislikes {
-    float: right;
-}
-
-#likes {
-    float: left;
-}
-
-#profileimg {
-    height: 525px;
-    width: 375px;
+    position: center;
+    padding-left: auto;
+    border-style: solid;
+    border-color: #4f4943;
 
 }
 
-#worksimg {
-    height: 525px;
-    width: 375px;
-
+#profiletext {
+    padding-left: 30px;
 }
 
+#profile {
+    padding-top: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;;
+}
 
+#workstitle {
+    text-align: center;
+}
 
+#workstext {
+    text-align: center;
+}
 
+#muji {
+    width: 364px;
+    height: 488px;
+    margin-right: 30px;
+    border-style: solid;
+    border-color: #4f4943;
+}
+
+#issa {
+    width: 364px;
+    height: 488px;
+    margin-left: 30px;
+    border-style: solid;
+    border-color: #4f4943;
+}
+
+#posters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#figma {
+    width: 854px;
+    height: 306;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: #4f4943;
+}
+
+#figmadiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;; 
+}
+
+#muji:hover {
+    opacity: 50%;
+}
+
+#issa:hover {
+    opacity: 50%;
+}
+
+#figma:hover {
+    opacity: 50%;
+}
 
 
 
